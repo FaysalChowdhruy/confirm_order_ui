@@ -35,8 +35,8 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
               Container(
                 color: Colors.white,
                 child: Theme(
-                  data:
-                      Theme.of(context).copyWith(dividerColor: Colors.transparent),
+                  data: Theme.of(context)
+                      .copyWith(dividerColor: Colors.transparent),
                   child: ExpansionTile(
                     backgroundColor: Colors.white,
                     collapsedBackgroundColor: Colors.white,
@@ -63,7 +63,8 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                                 ),
                           const Text(
                             "5% discount with code APP applied",
-                            style: TextStyle(color: Colors.black54, fontSize: 12),
+                            style:
+                                TextStyle(color: Colors.black54, fontSize: 12),
                           )
                         ],
                       ),
@@ -144,7 +145,8 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                           Text(
                             "01951043844",
                             style: TextStyle(
-                                color: Colors.grey, fontWeight: FontWeight.w500),
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w500),
                           ),
                         ],
                       ),
@@ -198,8 +200,8 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                         decoration: const BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(5)),
                             color: Colors.white),
-                        padding:
-                            const EdgeInsets.only(left: 30, top: 25, bottom: 25),
+                        padding: const EdgeInsets.only(
+                            left: 30, top: 25, bottom: 25),
                         child: Column(
                           children: [
                             Row(
@@ -267,14 +269,16 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                                     ),
                                     const Text(
                                       "Tue,Jan 4",
-                                      style: TextStyle(fontWeight: FontWeight.bold),
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
                                     ),
                                     const SizedBox(
                                       height: 5,
                                     ),
                                     const Text(
                                       "2:00 PM - 3.00 PM",
-                                      style: TextStyle(fontWeight: FontWeight.bold),
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
                                     ),
                                     const SizedBox(
                                       height: 10,
@@ -416,7 +420,8 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                       ),
                       Text(
                         "Terms and Conditions",
-                        style: TextStyle(color: Color(0xff7432CA), fontSize: 10),
+                        style:
+                            TextStyle(color: Color(0xff7432CA), fontSize: 10),
                       ),
                     ],
                   ),
@@ -444,10 +449,11 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                               fontSize: 20),
                         ),
                         Container(
-                            padding:
-                            const EdgeInsets.symmetric(horizontal: 30, vertical: 8),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 30, vertical: 8),
                             decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(10)),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(10)),
                                 color: Color(0xff7432CA)),
                             child: const Text(
                               "৳1522",

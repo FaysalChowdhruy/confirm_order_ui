@@ -1,6 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/Screen/confirmOrder.dart';
+import 'package:flutter_demo/Screen/payment_confirmation.dart';
+import 'Screen/offer.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
 
       ),
-      home: const ConfirmOrder(),
+      home: const Offer(),
     );
   }
 }
