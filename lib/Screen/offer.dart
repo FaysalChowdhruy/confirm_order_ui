@@ -141,7 +141,7 @@ class Offer extends StatelessWidget {
                                   padding: const EdgeInsets.all(6.0),
                                   child: Icon(Icons.add,color: Color(0xff9B61E9),),
                                 ),
-                              )
+                              ),
                             ],
                           ),
 
